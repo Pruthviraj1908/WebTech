@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+main{
+    width: 35vw;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    width: 10vw;
+    /* background: gold; */
+    /* border-radius: 50%; */
+
+}
+div:hover{
+    background: gainsboro;
+}
+section{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    width: 50px;
+    height: 50px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    /* background: lightgreen; */
+}

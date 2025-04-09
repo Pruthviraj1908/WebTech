@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+}
+ div{
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    background-color: rgb(0,0,05);
+} 
+ #a{
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    background: #123456;
+ }
+ #b{
+    width: 400px;
+    height: 500px;
+    border: 5px solid;
+    background-color: hsl(360deg, 100%, 50%,0.2);
+ }

@@ -1,0 +1,27 @@
+/*body{
+    height: 100vh;
+}*/
+/*main{
+    width: 50%;
+    height: 50%;
+    background: red;
+}
+/*div{
+    width: 50%;
+    height: 50%;
+    background: blue;
+}
+div{
+    width: 20vw;
+    height: 20vh;
+    background: blue;
+}*/
+div{
+    font-size: 2rem;
+}
+p{
+    font-size: 2rem;
+}
+main{
+    font-size: 3rem;
+}

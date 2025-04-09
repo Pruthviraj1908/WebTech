@@ -1,0 +1,64 @@
+p{
+    color: red;
+}
+#special{
+    font-size: 50px;
+}
+.highlight{
+    background-color:gray;
+}
+h1,p,span{
+    color: blue;
+}
+*{
+    border: solid;
+}
+div p{
+    font-size: 50px;
+}
+div>p{
+    background-color: blueviolet;
+}
+h1+p{
+    font-style: italic;
+    font-size: 30px;
+}
+h2~p{
+    background-color: chocolate;
+    font-style: oblique;
+}
+
+p::first-letter{
+    font-size: 50px;
+    color: black;
+}
+p::first-line{
+    color:red;
+}
+h1::before{
+    content: "before the heading";
+    font-size: 50px;
+}
+h1::after{
+    content: "after the heading";
+    color: aqua;
+}
+li::marker{
+    color: red;
+}
+p::selection{
+    color: chartreuse;
+}
+div.container p{
+    color: brown;
+
+}
+ul>li>ul>li{
+    background-color: gold;
+}
+ul>li:nth-child(odd){
+    background: grey;
+}
+p:nth-child(even){
+    color: chocolate;
+}

@@ -1,0 +1,88 @@
+/*div>div>section+p{
+    background-color: aqua;
+}
+div>p{
+    background-color: blue;
+}
+div h1{
+    background-color: blueviolet;
+}*/
+/*
+p::first-letter{
+background-color: aqua;
+font-size: 50px;
+}
+p::first-line{
+    background: red;
+    font-size: 30px;
+}
+p::selection{
+    
+    color: aqua;
+}
+p::before{
+    content: "Some text";
+    font-size: 50px;
+    background-color: blue;
+}
+p::after{
+    content: "|";
+    background-color: yellowgreen;
+    font-size: 40px;
+}
+ul>#a::marker{
+    content: "🥭";
+  
+}
+ul>#b::marker{
+    content: "🍉";
+  
+}
+ul>#c::marker{
+    content: "🍌";
+  
+}
+ul>#d::marker{
+    content: "🍎";
+  
+}
+ul>#e::marker{
+    content: "🍍";
+  
+} */
+ input:checked{
+    width: 30px;
+    height: 30px;
+   
+ }
+ input:enabled{
+
+ }
+ button:hover{
+    color: azure;
+ }
+ div:hover>p{
+    display: block;
+ }
+ input:required{
+    background-color: aqua;
+ }
+ div:first-child{
+    background-color: red;
+ }
+ section:nth-child(3){
+    background-color: blue;
+
+ }
+ section:last-child{
+    background-color: aqua;
+ }
+ td{
+    padding: 10px;
+ }
+ tr:nth-child(even){
+    background: burlywood;
+ }
+ tr:nth-child(odd){
+    background: greenyellow;
+ }

@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+}
+ /*.bg div{
+    width: 80vw;
+    height: 80vh;
+    border: 5px solid;
+    font-size: 50px;
+    background-image:url(./assets/Screenshot\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}*/
+.bgimage div{
+    width: 40vw;
+    height: 40vh;
+    background-image: linear-gradient(red, yellow);
+    border-radius: 50%;
+    
+
+}
+.bgimage div{
+    width: 40vw;
+    height: 40vh;
+    background-image: radial-gradient(blue, yellow);
+    border-radius: 50%;}
+
+.bgimage div{
+    width: 80vw;
+    height: 80vh;
+    background-image: conic-gradient(red, yellow,blue);
+    border-radius: 50%;
+}
+.bgimage div{
+    width: 700px;
+    height: 700px;
+    background-image:repeating-radial-gradient(red 30%, yellow 30%,green 35%);
+    border-radius: 50%;
+    /* background-image: repeating-radial-gradient(red 5%,black 5%,white 5%); */
+}
+
